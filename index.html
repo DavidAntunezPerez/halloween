@@ -12,13 +12,18 @@
     <link rel="shortcut icon" href="./images/favicon/cat-favicon-3.ico" type="image/x-icon">
 </head>
 <body>
-    
+<source onload="sound('bgmusic')">
+    <source id="bgmusic" >
+        <source src="/sounds/background-music.mp3"></source>
+        Your browser doesn't support native audio.
+    </audio>
     <div id="container">
         <p id="p1">
             🎃 Scary Halloween Party 🎃
         </p>
         <p id="p2"> 
-        Don't knock on the window!
+        Don't knock <br> 
+        on the window!
         </p>
         <div id="window" onclick="show('bats-out')">
 

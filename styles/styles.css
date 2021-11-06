@@ -4,10 +4,14 @@
     font-family: title;
     src: url(../fonts/Gruesome.ttf);
 }
+@font-face {
+    font-family: pixel;
+    src: url(/fonts/PixelCaps.ttf);
+}
 body
 {
     background-color: black;
-    font-family: title;
+    font-family: pixel;
     
 
 }
@@ -27,6 +31,7 @@ h1
     font-size: 5em;
     text-align: center;
     
+    
 }
 #p1,#p2,#p3,#p4{
     text-shadow: 5px 9px 5px red;
@@ -37,14 +42,15 @@ h1
     position:absolute;
     top: 5px;
     left: 100px;
-   
+    font-family: title;
     text-align: center;
 }
 #p2{
-    font-size: 2em;
+    font-size: 1.1em;
     position: absolute;
-    top: 580px;
-    left: 1350px;
+    top: 600px;
+    left: 1400px;
+    text-align: center;
 }
 #window{
     width: 100px;
