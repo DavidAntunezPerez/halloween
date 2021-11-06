@@ -8,6 +8,10 @@
     font-family: pixel;
     src: url(/fonts/PixelCaps.ttf);
 }
+@font-face {
+    font-family: cripted;
+    src: url(/fonts/PixelChozo.ttf);
+}
 body
 {
     background-color: black;
@@ -35,11 +39,12 @@ h1
 }
 #p1,#p2,#p3,#p4{
     text-shadow: 5px 9px 5px red;
+    text-align: center;
+    position: absolute;
 }
 #p1{
     color: wheat;
     font-size: 5em;
-    position:absolute;
     top: 5px;
     left: 100px;
     font-family: title;
@@ -47,9 +52,20 @@ h1
 }
 #p2{
     font-size: 1.1em;
-    position: absolute;
     top: 600px;
     left: 1400px;
+    text-align: center;
+}
+#p3{
+    color: wheat;
+    top: 270px;
+    left: 1100px;
+    text-align: center;
+}
+#p4{
+    color: wheat;
+    top: 420px;
+    left: 400px;
     text-align: center;
 }
 #window{
@@ -58,10 +74,67 @@ h1
     position: absolute;
     top:463px;
     left: 1457px;
+    cursor: pointer;
 }
 #bats-out{ 
     position: absolute;
     left: 1265px;
     top: 300px;
     visibility: hidden;
+}
+#chimney{
+    width: 125px;
+    height: 130px;
+    position: absolute;
+    left: 1320px;
+    top: 104px;
+    cursor: pointer;
+}
+#ghost{
+    position: absolute;
+    left: 1360px;
+    top:0px;
+    width: 90px;
+    visibility: hidden;
+}
+#pumpkin-letter{
+    width: 90px;
+    height: 100px;
+    position: absolute;
+    top: 500px;
+    left: 530px;
+    cursor:pointer;
+}
+#pumpkin{
+    visibility: hidden;
+}
+#let1,#let2,#let3,#let4,#let5{
+    text-shadow: 5px 9px 5px red;
+    font-family: cripted;
+    font-size: 1.8em;
+    position: absolute;
+}
+#let1{
+    color: wheat;
+    top: 600px;
+    left: 470px;
+    text-align: center;
+}
+#let2{
+    top:770px;
+    left: 830px;  
+}
+#let3{
+    top:840px;
+    left: 230px;
+}
+#let4{
+    top:830px;
+    left: 420px;
+}
+#let5{
+    font-family: pixel;
+    top:950px;
+    left: 200px;
+    font-size: 1em;
 }

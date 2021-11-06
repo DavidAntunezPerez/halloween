@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <!--Enlazar JS-->
     <script src="./javascripts/scripts.js"></script>
-    <title> 🎃 Spooky Party 🎃</title>
+    <title>Spooky Party</title>
     <link rel="shortcut icon" href="./images/favicon/cat-favicon-1.ico" type="image/x-icon">
 </head>
-<body>
-<source onload="sound('bgmusic')">
-    <source id="bgmusic" >
+<body onload="sound('bgmusic')">
+    <audio>
+        <source id="bgmusic" >
         <source src="/sounds/background-music.mp3"></source>
         Your browser doesn't support native audio.
     </audio>
@@ -25,10 +25,41 @@
         Don't knock <br> 
         on the window!
         </p>
+        <p id="p3">
+            You shouldn't look<br> 
+            into the chimney...
+        </p>
+        <p id="p4">
+            Try to take and <br> 
+            talk to this pumpkin
+        </p>
         <div id="window" onclick="show('bats-out')">
 
         </div>
         <img id="bats-out" src="./images/bats-out.gif">
+        <div id="chimney" onclick="show('ghost')">
+
+        </div>
+            <img id="ghost" src="/images/ghost-pixel-2.gif">
+            <div id="pumpkin-letter"  onclick="show('pumpkin')">
+        </div>
+        <div id="pumpkin">
+            <p id="let1">
+                aqweklzxcks
+            </p>
+            <p id="let2">
+                zxczxsa
+            </p>
+            <p id="let3">
+                lzadsodo
+            </p>
+            <p id="let4">
+                oszx
+            </p>
+            <p id="let5">
+                Looks like the message its encrypted...
+            </p>
+        </div>
     </div>
 </body>
 </html>
