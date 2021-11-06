@@ -1,0 +1,61 @@
+/******** NO ES UNA PÁGINA RESPONSIVE ************/
+/*****PONER A 67% DE TAMAÑO DE PÁGINA (PREFERIBLE EN MS EDGE) *****/
+@font-face {
+    font-family: title;
+    src: url(../fonts/Gruesome.ttf);
+}
+body
+{
+    background-color: black;
+    font-family: title;
+    
+
+}
+#container 
+{
+    width: 1920px;
+    height: 1080px;
+    margin: auto;
+    background-image: url(../images/background-5.jpg);
+    color:wheat;
+    position: relative;
+    
+}
+h1
+{
+    color: wheat;
+    font-size: 5em;
+    text-align: center;
+    
+}
+#p1,#p2,#p3,#p4{
+    text-shadow: 5px 9px 5px red;
+}
+#p1{
+    color: wheat;
+    font-size: 5em;
+    position:absolute;
+    top: 5px;
+    left: 100px;
+   
+    text-align: center;
+}
+#p2{
+    font-size: 2em;
+    position: absolute;
+    top: 580px;
+    left: 1350px;
+}
+#window{
+    width: 100px;
+    height: 140px;
+    position: absolute;
+    top:463px;
+    left: 1457px;
+}
+#bats-out{ 
+    position: absolute;
+    left: 1265px;
+    top: 300px;
+    visibility: hidden;
+}
