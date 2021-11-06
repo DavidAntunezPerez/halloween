@@ -9,7 +9,7 @@
     src: url(/fonts/PixelCaps.ttf);
 }
 @font-face {
-    font-family: cripted;
+    font-family: encrypted;
     src: url(/fonts/PixelChozo.ttf);
 }
 body
@@ -110,7 +110,7 @@ h1
 }
 #let1,#let2,#let3,#let4,#let5{
     text-shadow: 5px 9px 5px red;
-    font-family: cripted;
+    font-family: encrypted;
     font-size: 1.8em;
     position: absolute;
 }
