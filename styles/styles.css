@@ -6,11 +6,11 @@
 }
 @font-face {
     font-family: pixel;
-    src: url(/fonts/PixelCaps.ttf);
+    src: url(../fonts/PixelCaps.ttf);
 }
 @font-face {
     font-family: encrypted;
-    src: url(/fonts/PixelChozo.ttf);
+    src: url(../fonts/PixelChozo.ttf);
 }
 body
 {
