@@ -13,8 +13,11 @@
 </head>
 <body onload="sound('bgmusic')">
     <audio>
-        <source id="bgmusic" >
-        <source src="/sounds/background-music.mp3"></source>
+        <source id="bats-sound" type="audio/mpeg" src="./sounds/bat-fly.mp3" >
+        Your browser doesn't support native audio.
+    </audio>
+    <audio autoplay>
+        <source id="bgmusic" type="audio/mpeg" src="./sounds/background-music.mp3" >
         Your browser doesn't support native audio.
     </audio>
     <div id="container">
@@ -33,14 +36,14 @@
             Try to take and <br> 
             talk to this pumpkin
         </p>
-        <div id="window" onclick="show('bats-out')">
+        <div id="window" onclick="show('bats-out');sound('bats-sound')">
 
         </div>
         <img id="bats-out" src="./images/bats-out.gif">
         <div id="chimney" onclick="show('ghost')">
 
         </div>
-            <img id="ghost" src="../images/ghost-pixel-2.gif">
+            <img id="ghost" src="./images/ghost-pixel-2.gif">
             <div id="pumpkin-letter"  onmouseover="show('pumpkin')" onmouseout="hide('pumpkin')">
         </div>
         <div id="pumpkin">
