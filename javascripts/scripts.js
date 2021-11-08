@@ -11,10 +11,8 @@ function show(pumpkin){
 function hide(pumpkin){
     document.getElementById(pumpkin).style.visibility="hidden";} // oculta las letras al sacar el raton
 
-function sound(bgmusic){
-    document.getElementById(bgmusic).audio.play();} // background music
-
 function sound(batssound){
-    document.getElementById(batssound).audio.play();} // bats sound
+    document.getElementById(batssound).audio.play();
+} // bats sound
 
 
