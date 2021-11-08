@@ -14,7 +14,7 @@ function hide(pumpkin){
 function sound(bgmusic){
     document.getElementById(bgmusic).audio.play();} // background music
 
-function sound(bats){
-    document.getElementById(bats).audio.play();} // bats sound
+function sound(batssound){
+    document.getElementById(batssound).audio.play();} // bats sound
 
 
