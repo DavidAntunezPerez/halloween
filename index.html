@@ -12,14 +12,17 @@
     <link rel="shortcut icon" href="./images/favicon/cat-favicon-1.ico" type="image/x-icon">
 </head>
 <body onload="sound('bgmusic')">
-    <audio>
-        <source id="batssound" type="audio/mpeg" src="./sounds/bat-fly.mp3" >
+
+    <audio id="batssound">
+        <source type="audio/mpeg" src="./sounds/batfly.mp3" >
         Your browser doesn't support native audio.
     </audio>
+
     <audio autoplay>
         <source id="bgmusic" type="audio/mpeg" src="./sounds/background-music.mp3" >
         Your browser doesn't support native audio.
     </audio>
+
     <div id="container">
         <p id="p1">
             🎃 Scary Halloween Party 🎃
@@ -36,7 +39,7 @@
             Try to take and <br> 
             talk to this pumpkin
         </p>
-        <div id="window" onclick="show('bats-out');sound('batssound')">
+        <div id="window" onclick="show('bats-out'); sound('batssound')">
 
         </div>
         <img id="bats-out" src="./images/bats-out.gif">
