@@ -17,5 +17,17 @@ function hide(pumpkin){
 function sound(batssound){
     document.getElementById(batssound).play(); // bats sound
 } 
+function dissapear(cat){
+    document.getElementById(cat).style.visibility="hidden";} // esconde al gato vivo
+    
+function sound(catdeadsound){
+    document.getElementById(catdeadsound).play();} // catdeadsound
+
+function show(catdead){
+    document.getElementById(catdead).style.visibility="visible";} // show the dead cat
+
+function sound(ghostsound){
+    document.getElementById(ghostsound).play(); // bats sound
+} 
 
 

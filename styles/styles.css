@@ -37,7 +37,7 @@ h1
     
     
 }
-#p1,#p2,#p3,#p4{
+#p1,#p2,#p3,#p4,#p5{
     text-shadow: 5px 9px 5px red;
     text-align: center;
     position: absolute;
@@ -67,6 +67,12 @@ h1
     top: 420px;
     left: 400px;
     text-align: center;
+}
+#p5{
+    color: wheat;
+    top: 680px;
+    left: 10px;
+    text-align: center; 
 }
 #window{
     width: 100px;
@@ -137,4 +143,26 @@ h1
     top:950px;
     left: 200px;
     font-size: 1em;
+}
+#cat{
+    width: 110px;
+    height: 110px;
+    visibility: visible;
+}
+#spot{
+    position: absolute;
+    left: 150px;
+    top:550px;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    /* border: solid 2px white; */
+}
+#catdead{
+    position:absolute;
+    left: 125px;
+    top:530px;
+    width: 150px;
+    height: 150px;
+    visibility: hidden;
 }
